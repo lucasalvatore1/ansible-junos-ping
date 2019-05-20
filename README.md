@@ -1,8 +1,8 @@
 Ping an IP from multiple juniper devices<br>
 Requires inventory vars such as:
 
-`[ping]`
-```
+````
+[ping]
 device1
 device2
 device3
