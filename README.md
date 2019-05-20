@@ -7,9 +7,9 @@ device1
 device2
 device3
 device...
-```
 
-```
+
+
 [ping:vars]<br>
 ansible_connection=netconf<br>
 ansible_network_os=junos<br>
