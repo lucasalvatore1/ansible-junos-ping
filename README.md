@@ -2,10 +2,12 @@ Ping an IP from multiple juniper devices<br>
 Requires inventory vars such as:
 
 `[ping]`
-```device1
+```
+device1
 device2
 device3
-device...```
+device...
+```
 
 [ping:vars]<br>
 ansible_connection=netconf<br>
