@@ -1,0 +1,17 @@
+---
+- name: Send Pings
+  hosts: all
+  roles:
+    - Juniper.junos
+  vars:
+    ansible_python_interpreter: "/opt/ansible/ansible-venv/bin/python"
+    netconf_port: 830
+    wait_time: 900
+    ansible_command_timeout: 45
+  gather_facts: no
+
+  tasks:
+    - name: Show Results
+      junos_ping:
+        dest: 147.75.200.28
+        interface: lo0
