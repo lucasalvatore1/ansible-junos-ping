@@ -13,5 +13,5 @@
   tasks:
     - name: Show Results
       junos_ping:
-        dest: 147.75.200.28
+        dest: xx.xx.xx.xx
         interface: lo0
